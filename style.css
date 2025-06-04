@@ -1,153 +1,158 @@
-body { 
-    background: #fae3f5;
-    color: #fd89f2;
-    padding: 10px;
-    font-family: Didot, sans-serif;
-
+body {
+  background: #fae3f5;
+  color: #fd89f2;
+  padding: 10px;
+  font-family: Didot, sans-serif;
 }
 
 #all-contents {
-    max-width: 800px;
-    margin: auto;
-
+  max-width: 800px;
+  margin: auto;
 }
 
-nav { 
-    background: #faebc3;
-    justify-content: space-between;
-    display: flex;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    
-    
+nav {
+  background: #faebc3;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
 nav a:hover {
-    background-color: #fca2f0;
-    color: #faebc3;
-    border-radius: 5px;
+  background-color: #fca2f0;
+  color: #faebc3;
+  border-radius: 5px;
 }
 h1 {
-    display: flex;
-    align-items: center;
-    color:rgb(253, 170, 233);
-    flex: 1;
-    margin: 0;
+  display: flex;
+  align-items: center;
+  color: rgb(253, 170, 233);
+  flex: 1;
+  margin: 0;
 }
 #nav-ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   display: flex; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .nav-li {
-    display: inline-block;
-    padding: 0 10px;
-
+  display: inline-block;
+  padding: 0 10px;
 }
 
 a {
-    text-decoration: none;
-    color: #fca2f0;
+  text-decoration: none;
+  color: #fca2f0;
 }
 
 main {
-    background: #faebc3;
-    display: flex;
-    margin-top: 20px;
-    border-radius: 10px;
-
+  background: #faebc3;
+  display: flex;
+  margin-top: 20px;
+  border-radius: 10px;
 }
 
 .sidebar {
-    margin-right: 25px;
-    padding: 10px;
+  margin-right: 25px;
+  padding: 10px;
 }
 
 .sidebar-img {
-    width: 200px;
-    border-radius: 20px;
+  width: 200px;
+  border-radius: 20px;
 }
 
 .content {
-    flex: 1;
-    padding: 15px;
+  flex: 1;
+  padding: 15px;
 }
 
 #interests {
-    border: 4px rgb(242, 173, 248) solid;
-    border-radius: 10px;
-    padding: 8px;
-    margin-top: 20px;
+  border: 4px rgb(242, 173, 248) solid;
+  border-radius: 10px;
+  padding: 8px;
+  margin-top: 20px;
 }
 
-h2, h3 {
-    margin: 0px;
+h2,
+h3 {
+  margin: 0px;
 }
 
 /*Portfolio stuff */
 
 .content h1 {
-    color: #fd89f2;
+  color: #fd89f2;
 }
 
 #portfolio {
-    list-style-type: none;
-    padding-left: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
 #portfolio li {
-    background: #f7d0fc;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  background: #f7d0fc;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 #portfolio li:hover {
-    background-color: #fd89f2;
+  background-color: #fd89f2;
 }
 #portfolio a {
-    text-decoration: none;
-    color: #ef88f8;
+  text-decoration: none;
+  color: #ef88f8;
 }
 #portfolio a:hover {
-    color: #faebc3;
-    text-decoration: dotted;
+  color: #faebc3;
+  text-decoration: dotted;
+}
+#spotify-playlist {
+  border-color:rgb(242, 173, 248);
+  color: #faebc3;
+  border-style: solid;
+  width: 500px;
+  height: 400px;
+  border-width: thick;
+  border-radius: 15px;
 }
 /* responsive web design */
 
 @media screen and (min-width: 120px) and (max-width: 1080px) {
-    main { 
-        height: 100ch;
-        zoom: 1.5;
-        display: grid;
-    }
-    h1 { 
-        font-size: 44px;
-    }
-    h2 {
-        font-size: 42px;
-
-    }
-    h3 {
-        font-size: 36px;
-    }
-    #all-content {
-        height: 100ch;
-        margin: none;
-    }
-    a {
-        font-size: 42px;
-    }
-    .sidebar {
-        margin-right: 0px;
-        justify-content: center;
-        align-items: center; }
-    p, li {
-        font-size: 24px;
-    }
-    .content {
-        align-content: center;
-        justify-content: center;
-    }
+  main {
+    height: 100ch;
+    zoom: 1.5;
+    display: grid;
+  }
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 42px;
+  }
+  h3 {
+    font-size: 36px;
+  }
+  #all-content {
+    height: 100ch;
+    margin: none;
+  }
+  a {
+    font-size: 42px;
+  }
+  .sidebar {
+    margin-right: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  p,
+  li {
+    font-size: 24px;
+  }
+  .content {
+    align-content: center;
+    justify-content: center;
+  }
 }
