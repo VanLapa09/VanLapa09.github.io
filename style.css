@@ -62,6 +62,9 @@ main {
 .sidebar-img {
   width: 200px;
   border-radius: 20px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #f7d0fc;
 }
 
 .content {
@@ -72,8 +75,9 @@ main {
 #interests {
   border: 4px rgb(242, 173, 248) solid;
   border-radius: 10px;
-  padding: 8px;
+  padding: 4px;
   margin-top: 20px;
+  border-width: fit-content;
 }
 
 h2,
@@ -115,7 +119,7 @@ h3 {
   border-style: solid;
   width: 500px;
   height: 400px;
-  border-width: thick;
+  border-width: fit-content;
   border-radius: 15px;
 }
 /* responsive web design */
