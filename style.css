@@ -1,9 +1,13 @@
 body {
   background: #fae3f5;
+  background-image: url(https://i.pinimg.com/736x/8b/aa/31/8baa314edf94cbaf14782ad6c765f7b2.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
   color: #fd89f2;
   padding: 10px;
   font-family: Didot, sans-serif;
   cursor: url(https://www.rw-designer.com/cursor-view/33499.png), default;
+
 }
 
 #all-contents {
