@@ -3,6 +3,7 @@ body {
   color: #fd89f2;
   padding: 10px;
   font-family: Didot, sans-serif;
+  cursor: url(https://www.rw-designer.com/cursor-view/33499.png), default;
 }
 
 #all-contents {
@@ -63,7 +64,7 @@ main {
   width: 200px;
   border-radius: 20px;
   border-style: solid;
-  border-width: 10px;
+  border-width: 5px;
   border-color: #f7d0fc;
 }
 
@@ -114,7 +115,7 @@ h3 {
   text-decoration: dotted;
 }
 #spotify-playlist {
-  border-color:rgb(242, 173, 248);
+  border-color: rgb(242, 173, 248);
   color: #faebc3;
   border-style: solid;
   width: 500px;
@@ -122,6 +123,47 @@ h3 {
   border-width: fit-content;
   border-radius: 15px;
 }
+
+#tamadochi {
+  width: 150px;
+  border-style: solid;
+  border-radius: 100px;
+  border-color: #fca2f0;
+  border-width: thick;
+  color:rgb(253, 170, 233)
+}
+#fluttershy {
+  width: 200px;
+}
+
+body:before {
+  content: all-contents;
+  width: 800px;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-image: url("https://i.pinimg.com/originals/1b/f1/30/1bf130670d1d84bd41e68f32d5c4b0c9.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: blink 1s ease 0s 1 normal forwards;
+  pointer-events: none;
+}
+
+@keyframes blink {
+  0.0% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 /* responsive web design */
 
 @media screen and (min-width: 120px) and (max-width: 1080px) {
