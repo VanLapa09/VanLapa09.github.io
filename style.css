@@ -1,11 +1,11 @@
 body {
   background: #fae3f5;
-  background-image: url(https://i.pinimg.com/736x/8b/aa/31/8baa314edf94cbaf14782ad6c765f7b2.jpg);
+  background-image: url(https://media.istockphoto.com/id/1162356656/vector/pastel-pink-and-yellow-stripes-background.jpg?s=612x612&w=0&k=20&c=MSaKwexgxg7rZxEArh2E4062WqR8pUz3gGTw0nd9-2U=);
     background-repeat: repeat;
     background-attachment: fixed;
   color: #fd89f2;
   padding: 10px;
-  font-family: Didot, sans-serif;
+  font-family: "Rainy Hearts", url(https://dl.dafont.com/dl/?f%3Drainyhearts),Georgia, sans-serif;
   cursor: url(https://www.rw-designer.com/cursor-view/33499.png), default;
 
 }
@@ -136,36 +136,13 @@ h3 {
   border-width: thick;
   color:rgb(253, 170, 233)
 }
-#fluttershy {
+.blinkies {
   width: 200px;
 }
 
-body:before {
-  content: all-contents;
-  width: 800px;
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  background-image: url("https://i.pinimg.com/originals/1b/f1/30/1bf130670d1d84bd41e68f32d5c4b0c9.gif");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  animation: blink 1s ease 0s 1 normal forwards;
-  pointer-events: none;
-}
-
-@keyframes blink {
-  0.0% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+::selection {
+background-color: #f8c9f2;
+color: #faebc3;
 }
 
 /* responsive web design */
