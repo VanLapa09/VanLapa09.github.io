@@ -9,7 +9,7 @@ body {
   cursor: url(https://www.rw-designer.com/cursor-view/33499.png), default;
 
 }
-
+@import url('04b03.css');
  
 #all-contents {
   max-width: 800px;
@@ -146,41 +146,3 @@ background-color: #f8c9f2;
 color: #faebc3;
 }
 
-/* responsive web design */
-
-@media screen and (min-width: 120px) and (max-width: 1080px) {
-  main {
-    height: 100ch;
-    zoom: 1.5;
-    display: grid;
-  }
-  h1 {
-    font-size: 44px;
-  }
-  h2 {
-    font-size: 42px;
-  }
-  h3 {
-    font-size: 36px;
-  }
-  #all-content {
-    height: 100ch;
-    margin: none;
-  }
-  a {
-    font-size: 42px;
-  }
-  .sidebar {
-    margin-right: 0px;
-    justify-content: center;
-    align-items: center;
-  }
-  p,
-  li {
-    font-size: 24px;
-  }
-  .content {
-    align-content: center;
-    justify-content: center;
-  }
-}
