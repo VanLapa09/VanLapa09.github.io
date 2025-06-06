@@ -5,11 +5,12 @@ body {
     background-attachment: fixed;
   color: #fd89f2;
   padding: 10px;
-  font-family: "Rainy Hearts", url(https://dl.dafont.com/dl/?f%3Drainyhearts),Georgia, sans-serif;
+  font-family: Cursive,  Georgia, sans-serif;
   cursor: url(https://www.rw-designer.com/cursor-view/33499.png), default;
 
 }
 
+ 
 #all-contents {
   max-width: 800px;
   margin: auto;
