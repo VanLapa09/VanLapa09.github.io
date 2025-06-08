@@ -5,11 +5,20 @@ body {
     background-attachment: fixed;
   color: #fd89f2;
   padding: 10px;
-  font-family: Georgia, sans-serif;
+  font-family: Gaegu, Georgia, sans-serif;
   cursor: url(https://www.rw-designer.com/cursor-view/33499.png), default;
 
+
 }
-@import url('04b03.css');
+/* fonts i guess  */
+@font-face {
+  font-family: "Always In my Heart";
+  src: url(Always\ In\ My\ Heart.ttf);
+}
+@font-face {
+  font-family: Gaegu;
+  src: url(Gaegu-Regular.ttf);
+}
  
 #all-contents {
   max-width: 800px;
