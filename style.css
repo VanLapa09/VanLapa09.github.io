@@ -10,6 +10,10 @@ body {
 
 
 }
+html {
+  scrollbar-color: #fd89f2 #faebc3 ; 
+  scrollbar-highlight-color: #fca2f0;
+}
 /* fonts i guess  */
 @font-face {
   font-family: "Always In my Heart";
